@@ -12,3 +12,5 @@ Deteccion de Intrusos de Red Local
    5. Consulta NETSTAT
    6. About me...
    7. Salir
+
+https://www.zonasystem.com/2012/01/dilan-detectar-los-equipos-conectados.html
