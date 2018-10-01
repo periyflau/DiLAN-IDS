@@ -2,8 +2,10 @@
 :menu
 del fichero*.tmp
 cls
-Title DiLAN - v1.0 By @adrianlois_ - 2011
+title DiLAN - v1.0 - 2011 - By @adrianlois_
+
 rem Autor @adrianlois_
+
 color 0A
 echo.
 echo Para poder ejecutar ciertas funciones de esta aplicacion
