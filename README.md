@@ -1,12 +1,9 @@
 # DiLAN-IDS
 DiLAN-IDS - Detección de Intrusos de Red Local (2011)
 
-╔═════════════════════════════════════════════╗
-║╔═══════════════════════════════════════════╗║
-║║          DiLAN - v1.0 - 2011              ║║
-║║   Deteccion de Intrusos de Red Local      ║║
-║╚═══════════════════════════════════════════╝║
-╚═════════════════════════════════════════════╝
+DiLAN - v1.0 - 2011
+
+Deteccion de Intrusos de Red Local
 
    1. Escanear toda la red de clase C (1-254)
    2. Escanear un rago determinado de clase C
