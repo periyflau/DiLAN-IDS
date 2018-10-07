@@ -14,12 +14,12 @@ echo.
 echo [+] El nombre de su equipo es: [ %computername% ]
 echo [+] Su usuario actual es: [ %username% ]
 echo.
-echo ษอออออออออออออออออออออออออออออออออออออออออออออป
-echo บษอออออออออออออออออออออออออออออออออออออออออออปบ
-echo บบ          DiLAN - v1.0 - 2011              บบ
-echo บบ   Deteccion de Intrusos de Red Local      บบ
-echo บศอออออออออออออออออออออออออออออออออออออออออออผบ
-echo ศอออออออออออออออออออออออออออออออออออออออออออออผ
+echo รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยป
+echo ยบรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยปยบ
+echo ยบยบ          DiLAN - v1.0 - 2011              ยบยบ
+echo ยบยบ   Deteccion de Intrusos de Red Local      ยบยบ
+echo ยบรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผยบ
+echo รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ
 echo.
 echo    1. Escanear toda la red de clase C (1-254)
 echo    2. Escanear un rago determinado de clase C
@@ -236,7 +236,11 @@ if %opc%==2 goto protonetstat
 if %opc%==3 goto menu
 :detalladanetstat
 cls
-netstat -a -b -e -n -o -r -s -v
+netstat -noab
+echo _________________________________________________________
+netstat -r
+echo _________________________________________________________
+netstat -s
 echo _________________________________________________________
 echo.
 echo    1. Volver al Menu NETSTAT
@@ -279,7 +283,7 @@ echo Consultar la respuesta de una direccion IP determinada
 echo ======================================================
 echo ( Para volver al Menu principal, escriba: salir )
 echo.
-echo Nota: Si la IP introducida, no muestra nada en pantalla, 
+echo Si la IP introducida, no muestra nada en pantalla, 
 echo significa que no esta respondiendo a la solicitud de echo ICMP, ping.
 echo.
 echo Introduzca la direccion IP a consultar:
@@ -300,16 +304,15 @@ if %opc%==2 goto menu
 :aboutme
 cls
 echo.
-echo [ ฟ Que es DiLAN ? ]
+echo [ ยฟ Que es DiLAN ? ]
 echo --------------------
 echo DiLAN (Detection Intrusion Local Area Network) es una herramienta que mediante 
-echo una serie de procesos le va permitir escanear y consultar las IPs activas 
-echo de una Red de area local, echo entre otras cosas.
+echo una serie de procesos le permite escanear y consultar las IPs activas 
+echo de una Red de Area Local, entre otras funciones.
 echo.
 echo Esta herramienta puede modificarse y distribuirse gratuitamente, siempre y 
 echo cuando se referencie al autor. 
-echo Esta prohibida la venta con el fin de un beneficio economico 
-echo de esta herramienta.
+echo Esta prohibida la venta con el fin de un beneficio economico.
 echo.
 echo  +-------------------+
 echo  +  By @adrianlois_  +
@@ -323,6 +326,6 @@ if %var%==s goto si
 if %var%==n goto no
 
 :salir
-msg * Gracias por utilizar DiLAN - By @adrianlois_
+msg * Gracias por usar DiLAN - By @adrianlois_
 del fichero*.tmp
 exit
