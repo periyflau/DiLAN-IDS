@@ -7,7 +7,7 @@ title DiLAN - v1.0 - 2011 - By @adrianlois_
 rem Autor @adrianlois_
 
 color 0A
-echo.
+echo
 echo Para poder ejecutar ciertas funciones de esta aplicacion
 echo necesita ejecutar DiLAN como Administrador
 echo.
