@@ -1,5 +1,5 @@
 # DiLAN-IDS
-DiLAN-IDS - Detección de Intrusos de Red Local (2011)
+DiLAN-IDS - Detección de Intrusos de Red Local (2011
 
 https://www.zonasystem.com/2012/01/dilan-detectar-los-equipos-conectados.html
 
